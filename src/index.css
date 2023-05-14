@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply w-72 rounded-md  bg-slate-500 drop-shadow-xl;
+  }
+}
+
+@layer utilities {
+  .hello {
+    @apply text-lg font-semibold text-red-500;
+  }
+}
