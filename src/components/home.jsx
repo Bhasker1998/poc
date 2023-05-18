@@ -1,7 +1,7 @@
 import React from 'react'
 function Home() {
   return (
-    <div>Home</div>
+    <div>Hello world</div>
   )
 }
 
